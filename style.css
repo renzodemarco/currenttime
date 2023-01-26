@@ -42,3 +42,14 @@ p {
         justify-self: center;
     }
 }
+
+@media screen and (max-width: 420px) {
+    h1 {
+        font-size: 1.7em;
+    }
+
+    p {
+        justify-self: center;
+        font-size: .8em;
+    }
+}
