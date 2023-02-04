@@ -44,10 +44,14 @@ p {
 }
 
 @media screen and (max-width: 420px) {
+    #watch {
+        border: 4px solid #F0FF42;
+    }
+
     h1 {
         font-size: 1.7em;
     }
-
+    
     p {
         justify-self: center;
         font-size: .8em;

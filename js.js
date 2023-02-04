@@ -9,7 +9,7 @@ function currentTime() {
     seg = (seg < 10) ? "0" + seg : seg;
 
     let horaActual = `${hs} : ${min} : ${seg}`;
-    let hora = document.getElementById("watch");
+    let watch = document.getElementById("watch");
     
     watch.innerHTML = horaActual;
 }
